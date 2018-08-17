@@ -1,0 +1,26 @@
+#game .iconfont1 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 30px;
+  width: 100%; }
+
+#game .nav {
+  height: 60px;
+  width: 100%;
+  list-style: none;
+  margin-left: 10%; }
+  #game .nav li {
+    border-right: 1px solid #eee;
+    display: flex;
+    float: left;
+    height: 60px;
+    width: 20%;
+    color: #fff;
+    background: #0ea7f1;
+    text-align: center; }
+    #game .nav li a {
+      text-decoration: none;
+      margin: auto;
+      text-decoration: none;
+      color: #fff; }

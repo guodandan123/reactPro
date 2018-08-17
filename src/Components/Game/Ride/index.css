@@ -1,0 +1,24 @@
+#Ride li {
+  border-bottom: 1px solid #ccc;
+  float: left;
+  padding: 15px;
+  list-style: none;
+  width: 90%;
+  padding-left: 5%; }
+  #Ride li img {
+    width: 100%; }
+  #Ride li .title {
+    font-size: 18px;
+    font-weight: 600; }
+  #Ride li .tag {
+    margin-top: 5px;
+    margin-bottom: 10px; }
+    #Ride li .tag span {
+      margin-bottom: 10px;
+      padding: 2px;
+      color: #189adb;
+      border: 1px solid #189adb;
+      margin-right: 5px; }
+  #Ride li .palce {
+    margin-bottom: 5px;
+    color: #ccc; }

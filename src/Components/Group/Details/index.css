@@ -1,0 +1,45 @@
+#up {
+  padding: 10px;
+  border-bottom: 10px solid #eee; }
+
+#head {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px; }
+
+#time {
+  margin-top: 5px;
+  font-size: 12px; }
+
+#title {
+  line-height: 30px; }
+
+#content {
+  line-height: 30px;
+  font-size: 14px;
+  margin-top: 10px; }
+
+#pic1 {
+  width: 100%; }
+
+#down {
+  padding: 10px;
+  border-bottom: 1px solid #eee; }
+
+#discuss textarea {
+  width: 60%;
+  height: 50px;
+  margin: 10px;
+  float: left;
+  resize: none; }
+
+#discuss button {
+  border: none;
+  background: none;
+  color: #2fbbe3;
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  margin-top: 20px; }

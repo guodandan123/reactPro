@@ -1,0 +1,41 @@
+#all li {
+  list-style: none;
+  height: 180px;
+  border-bottom: 3px solid #f3f3f3;
+  margin-top: 20px; }
+  #all li #left {
+    width: 10%;
+    margin-left: 5px;
+    float: left; }
+  #all li #right {
+    width: 85%;
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 5px; }
+  #all li #user {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left; }
+  #all li #name {
+    float: left; }
+    #all li #name #time {
+      display: inline-block;
+      float: right; }
+  #all li #title {
+    font-weight: bold; }
+  #all li #pic {
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+    margin-right: 10px; }
+  #all li #content2 {
+    float: left;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+
+.active {
+  color: #3172d3;
+  text-decoration: underline; }

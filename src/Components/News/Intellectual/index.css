@@ -1,0 +1,39 @@
+div #list_2 {
+  width: 100%;
+  padding-top: 50px; }
+  div #list_2 li {
+    width: 100%;
+    height: 100px; }
+    div #list_2 li img {
+      width: 130px;
+      margin: 8px;
+      float: left; }
+    div #list_2 li span {
+      padding: 7px;
+      float: right;
+      font-size: 16px;
+      line-height: 20px;
+      white-space: normal;
+      width: 200px; }
+    div #list_2 li #right {
+      width: 200px;
+      height: 20px;
+      float: left;
+      margin-top: 20px; }
+      div #list_2 li #right span {
+        line-height: 5px; }
+      div #list_2 li #right .onw {
+        float: left;
+        width: 40px;
+        font-size: 14px; }
+      div #list_2 li #right .two {
+        float: right;
+        width: 130px;
+        font-size: 14px; }
+
+div footer {
+  width: 100%;
+  height: 40px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px; }

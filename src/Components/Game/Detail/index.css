@@ -1,0 +1,18 @@
+#Detail img {
+  width: 100%; }
+
+#Detail div span {
+  margin-bottom: 10px;
+  padding: 2px;
+  color: #189adb;
+  border: 1px solid #189adb;
+  margin-right: 5px; }
+
+#Detail ul li {
+  list-style: none;
+  float: left;
+  width: 33%; }
+
+.active {
+  border-bottom: 3px solid #0ea7f1;
+  color: #0ea7f1; }
