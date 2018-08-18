@@ -23,7 +23,7 @@ import Walk from "../Components/Game/Walk";
 import News from "../Components/News";
 import Help from "../Components/Help";
 import Contact from "../Components/Contact";
-import Devices from "../Components/Devices";
+// import Devices from "../Components/Devices";
 import Detail from "../Components/Game/Detail";
 import Details from "../Components/Group/Details";
 
@@ -105,7 +105,7 @@ const router = (
 				}/>
 				<Route path="/help" component={Help}/>
 				<Route path="/contact" component={Contact}/>
-				<Route path="/devices" component={Devices}/>
+				{/*<Route path="/devices" component={Devices}/>*/}
 
 
 				<Redirect from="*" to="/home"/>

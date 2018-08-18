@@ -2,7 +2,7 @@ import React,{Component} from "react";
 import axios from "axios";
 import "./index.css";
 
-
+import moment from "moment";
 class Detail extends Component{
 	constructor(){
 		super();
@@ -45,11 +45,10 @@ class Detail extends Component{
 						<h4 id="title">{this.state.datalist.title}</h4>
 						<p id="content">{this.state.datalist.content}</p>
 						{
-									this.state.datalist.pic_url.split(";").map((src,index)=>{
-										return <img src={src} id="pic1" key={index}/>
-
-									})
-								}
+							this.state.datalist.pic_url.split(";").map((src,index)=>{
+							return <img src={src} id="pic1" key={index}/>
+							})
+						}
 					</div>:null
 				}
 
@@ -65,7 +64,6 @@ class Detail extends Component{
 								<p>{data.user.username}</p>
 								<p id="time">{data.create_time}</p>
 								<p id="content">{data.content}</p>
-								
 								{
 									data.pic_url.split(";").map((src,index)=>{
 										return <img src={src} id="pic1" key={index}/>

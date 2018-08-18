@@ -4,6 +4,7 @@ import "./index.css";
 import {NavLink} from  "react-router-dom";
 
 import ReactSwipe from 'react-swipe';
+import ReactDOM from 'react-dom';
 
 
 
@@ -28,6 +29,7 @@ class Group extends Component{
 				<NavLink to="/group/running" activeClassName="active">跑步行者</NavLink>
 				<NavLink to="/group/freedom" activeClassName="active">自由行者</NavLink>
             </ReactSwipe>
+
 			{this.props.children}
 
 		</div>

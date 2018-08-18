@@ -1,0 +1,51 @@
+#help {
+  background: #f2f2f2; }
+  #help #helpcenter {
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 10px;
+    background: white;
+    border-bottom: 3px solid #f2f2f2; }
+  #help #helps {
+    display: inline-block; }
+    #help #helps #skr {
+      width: 180px;
+      height: 130px;
+      margin-left: 18px;
+      margin-top: 20px;
+      float: left;
+      text-align: center;
+      background: #fff;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      display: flex; }
+    #help #helps p {
+      margin: auto; }
+      #help #helps p i {
+        font-size: 40px;
+        color: #007ac2; }
+      #help #helps p span {
+        margin-top: 10px;
+        display: block;
+        font-size: 14px; }
+
+#downs #common {
+  display: block;
+  font-size: 18px;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 15px; }
+
+#downs a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #007ac2;
+  display: block;
+  line-height: 40px; }
+
+#downs #ques {
+  margin-top: 100px;
+  margin-left: 15px; }
+  #downs #ques a {
+    display: inline; }

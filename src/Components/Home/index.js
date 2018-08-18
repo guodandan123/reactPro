@@ -16,15 +16,7 @@ class Home extends Component{
 			<div id="img">
 				<img src={img1} id="img1"/>
 			</div>
-			<div id="title">
-				<div id="left">
-					<i className="iconfont icon-webicon03"></i>
-				</div>
-				<div id="right">
-					<span>登录</span>
-					<span>注册 </span>
-				</div>
-			</div>
+			
 			
 			<p id="on">行者，专业户外运动软件</p>
 			<p id="top">当前行者用户运动总里程</p>

@@ -8,18 +8,34 @@ ul li{
 
 
 .aaa{
-  background-color:#000; 
-  width: 100%;
-color: #fff;
-height:30px;}
+    background-color:#000; 
+    width: 100%;
+	color: #fff;
+	height:40px;
+}
   
   
 
 .aaa i{
   font-size: 26px;
-
 }
-i:nth-of-type(2){
-  
-  float: right;
+#l{
+	float: left;
+	margin-top:5px;
+	margin-left:5px;
+}
+#r{
+	float:right;
+	margin-top:5px;
+	margin-right:5px;
+}
+
+#login{
+	float: right;
+	margin-top: 8px;
+}
+#reg{
+	float:right;
+	margin-right: 20px;
+	margin-top: 8px;
 }
